@@ -29,8 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
-  "homepage":"https://olenazubashenko.github.io/ReactRateCourse/"
+  },
+  "homepage":"https://olenazubashenko.github.io/ReactRateCourse/",
   "scripts":{
  "predeploy": "npm run build",
  "deploy": "gh-pages -d build",
