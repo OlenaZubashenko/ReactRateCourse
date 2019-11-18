@@ -30,7 +30,15 @@
       "last 1 safari version"
     ]
   },
+<<<<<<< HEAD
   "devDependencies": {
     "surge": "^0.21.3"
   }
+=======
+ 
+  "scripts":{
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build"
+}
+>>>>>>> 3fe5b4f8a9b056a92d0488df705e61bd6a81ab40
 }
