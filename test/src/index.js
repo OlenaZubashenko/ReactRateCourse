@@ -12,22 +12,19 @@ import './index.css';
 
 const getResourse = async (url) => {
     const res = await fetch(url);
+    if(!res.ok){
+        throw new Error (`Could not fetch ${url}`);
+    }
     const body = await res.json();
     return body;
 };
 getResourse('https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5')
 .then((body) => {
-    console.log(body);
+    console.log(body[0].buy);
 })
 
 
-fetch('https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5')
-.then((res) => {
-    return res.json();
-})
-.then((body) => {
-    console.log(body);
-});
+
 
 
 const App = () => {

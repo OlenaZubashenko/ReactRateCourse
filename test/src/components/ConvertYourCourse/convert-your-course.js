@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import ConvertChanging from '../ConvertChanging/convert-changing';
 import ConvertGetting from '../ConvertGetting/convert-getting';

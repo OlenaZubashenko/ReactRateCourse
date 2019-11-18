@@ -5,7 +5,7 @@ const CurentListItem = () => {
     <span>ItemTitle  </span>
     <span>ItemBuy  </span>
     <span>ItemSale  </span>
-    <button type="button" className="btn btn-outline-warning">Liked</button>
+    <button type="button" className="btn btn-outline-warning">liked</button>
     </div>);
 };
 
