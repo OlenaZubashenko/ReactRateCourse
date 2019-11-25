@@ -1,11 +1,20 @@
 import React from 'react';
-import CurrentListItem from '../CurrentListItem/current-list-item';
+import './current-list.css';
 
-const CurrentList = () => {
-    return <ul>
-    <li><CurrentListItem /></li>
-    <li><CurrentListItem /></li>
-</ul>
+const CurrentList = ({ ccy, buy, sale }) => {
+    return (<div className='list-wrapper'>
+        
+        <ul>
+            <li>
+                <button type="button" className="btn btn-outline-warning btn-like">like</button>
+                {ccy}
+            </li>
+            <li>{buy}</li>
+            <li>{sale}</li>
+        </ul>
+    </div>
+    )
+
 };
- 
+
 export default CurrentList;

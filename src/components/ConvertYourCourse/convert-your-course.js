@@ -9,7 +9,7 @@ import '../ConvertYourCourse/convert-your-course.css';
 const ConvertYourCourse = () => {
     return (
         <div>
-            <h1 className='title'>Convert your own course</h1>
+            <h1 className='title text-muted'>Convert your own course</h1>
             <div className='convert-wrapper'>
                 <ConvertChanging />
                 <ConvertGetting />

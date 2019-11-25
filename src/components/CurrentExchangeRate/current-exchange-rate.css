@@ -1,0 +1,11 @@
+li {
+    list-style: none;
+}
+.rate-wrapper {
+    display: flex;
+}
+.title-wrapper {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
