@@ -8,6 +8,7 @@ const CurrentExchangeRate = ({ dataSourse }) => {
     const elements = dataSourse.map((item) => {
         return (
             <div className='rate-wrapper'>
+                
                 <CurrentList
                     ccy={item.ccy}
                     buy={item.buy}
@@ -18,11 +19,10 @@ const CurrentExchangeRate = ({ dataSourse }) => {
     return <ul>
         <h1 className='text-muted'>Current exchange rate</h1>
         <div className='title-wrapper text-muted'>
-        <h4>Currency</h4>
-        <h4>Buy</h4>
-        <h4>Sale</h4>
+            <h4>Currency</h4>
+            <h4>Buy</h4>
+            <h4>Sale</h4>
         </div>
-       
         {elements}
     </ul>
 };

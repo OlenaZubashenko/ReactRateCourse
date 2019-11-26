@@ -9,3 +9,7 @@ li {
     width: 400px;
     justify-content: space-between;
 }
+
+.btn-like {
+    margin: 5px;
+}

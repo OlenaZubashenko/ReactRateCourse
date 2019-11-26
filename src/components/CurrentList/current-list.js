@@ -6,8 +6,10 @@ const CurrentList = ({ ccy, buy, sale }) => {
         
         <ul>
             <li>
-                <button type="button" className="btn btn-outline-warning btn-like">like</button>
-                {ccy}
+            <button type="button" className="btn btn-outline-warning btn-like"
+            onClick={ ()=> console.log('try')}
+            >like</button>
+                {ccy} 
             </li>
             <li>{buy}</li>
             <li>{sale}</li>
