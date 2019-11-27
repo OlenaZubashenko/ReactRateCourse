@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import './current-list.css';
 
 export default class CurrentList extends Component {
+
+onBtnClick() {
+    
+    console.log(`try ${this.props.ccy}`);
+}
+
     render() {
         const { ccy, buy, sale } = this.props;
     
@@ -10,7 +16,7 @@ export default class CurrentList extends Component {
         <ul>
             <li>
                 <button type="button" className="btn btn-outline-warning btn-like"
-                    onClick={() => console.log(`try ${ccy}, ${buy}`)}
+                    onClick={this.onBtnClick.bind(this)}
                 >like</button>
                 {ccy}
             </li>
