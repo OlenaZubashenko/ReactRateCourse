@@ -29,25 +29,25 @@ const getResourse = async (url) => {
 
 const App = () => {
     const resourse = [
-        {
+        {id:12,
             ccy: "USD",
             base_ccy: "UAH",
             buy: "24.10000",
             sale: "24.40000"
         },
-        {
+        {id:13,
             ccy: "EUR",
             base_ccy: "UAH",
             buy: "26.50000",
             sale: "27.05000"
         },
-        {
+        {id:14,
             ccy: "RUR",
             base_ccy: "UAH",
             buy: "0.34500",
             sale: "0.38200"
         },
-        {
+        {id:15,
             ccy: "BTC",
             base_ccy: "USD",
             buy: "7751.9921",

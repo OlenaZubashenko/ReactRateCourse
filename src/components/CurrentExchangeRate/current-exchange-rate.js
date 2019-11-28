@@ -10,9 +10,12 @@ const CurrentExchangeRate = ({ dataSourse }) => {
             <div className='rate-wrapper'>
                 
                 <CurrentList
-                    ccy={item.ccy}
+                  /* { ccy={item.ccy}
                     buy={item.buy}
-                    sale={item.sale} />
+                    sale={item.sale} }
+                   меняем с помощью деструктуризации на {...item}*/ 
+                    {...item}
+                    />
             </div>
         )
     })
